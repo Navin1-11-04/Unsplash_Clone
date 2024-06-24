@@ -7,7 +7,7 @@ function Home() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/posts')
+    axios.get('https://unsplash-clone-server.vercel.app/posts')
       .then(response => setPosts(response.data))
       .catch(error => console.error('Error fetching posts:', error));
   }, []);
