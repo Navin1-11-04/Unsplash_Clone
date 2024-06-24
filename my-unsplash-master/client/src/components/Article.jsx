@@ -3,7 +3,7 @@ import React from 'react';
 function Article({ post, onDelete }) {
   const handleDelete = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/posts/${post._id}`, {
+      const response = await fetch(`unsplash-clone-server.vercel.app/posts/${post._id}`, {
         method: 'DELETE',
       });
       if (response.ok) {
