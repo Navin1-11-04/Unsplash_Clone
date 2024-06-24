@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://unsplash-gallery.vercel.app">
+    <a href="https://unsplash-lac.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/unsplash-gallery">
+    <a href="https://github.com/Navin1-11-04/Unsplash_Clone/">
       Solution
     </a>
     <span> | </span>
