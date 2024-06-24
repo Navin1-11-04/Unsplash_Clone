@@ -15,7 +15,7 @@ function Navbar() {
   const handleAddPost = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/addposts', {
+      const response = await axios.post('https://unsplash-clone-server.vercel.app/addposts', {
         label,
         imageUrl
       });
