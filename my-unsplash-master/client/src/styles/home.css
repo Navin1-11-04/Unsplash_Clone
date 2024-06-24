@@ -1,0 +1,72 @@
+.home-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-container {
+  width: 100%;
+  height:fit-content;
+  padding:3vh 3vw;
+  overflow-y: scroll;
+  white-space:wrap;
+}
+#posts-img{
+  border-radius:10px;
+}
+.posts-columns{
+  height:fit-content !important;
+}
+.article{
+  position: relative;
+}
+#label{
+  position: absolute;
+  bottom:0;
+  color:#fff;
+  font-weight:500;
+  font-size:15px;
+  width:100%;
+  padding:3%;
+  visibility: hidden;
+}
+.article:hover{
+  #label{
+    visibility: visible;
+    background-color:#2f2f2fc9;
+    border-radius:0 0 10px 10px;
+  }
+  #delete-btn{
+    visibility: visible;
+  }
+}
+#delete-btn{
+  position: absolute;
+  top:10px;
+  right:10px;
+  border:2px solid #fff;
+  color:#fff;
+  font-size: small;
+  height:35px;
+  width:35px;
+  background-color:#2f2f2f;
+  border-radius:30px;
+  visibility: hidden;
+}
+#delete-btn:hover{
+  color:red;
+  border-color:red;
+}
+.footer{
+  width:100%;
+  margin:10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+}
+#username{
+  font-weight:600;
+  text-decoration: underline;
+  margin:0 3px;
+}
